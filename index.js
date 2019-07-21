@@ -15,7 +15,7 @@ app.use(logger);
 
 // Single path for folder
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 })
 
 // Body parser Middleware
